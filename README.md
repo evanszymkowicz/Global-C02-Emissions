@@ -4,4 +4,4 @@ Global Carbon Emissions (1980-2016) interactive dashboard built with data collec
 
 # Recommended viewing:
 
-Clone repository to local device and run `npm start` in terminal/IDE
+GitHub hosting for this repo has depreciated. Clone repository to local device and run `npm start` to view the live dashboard. 
