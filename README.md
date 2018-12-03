@@ -1,6 +1,6 @@
 # Global-C02-Emissions
 
-Global Carbon Emissions (1980-2016) interactive dashboard built with data collected in .csv format.
+Uses the D3 JavaScript library to collate relationships between countries/emissions/years and display a global (1980-2016) interactive dashboard.
 
 # Recommended viewing:
 
