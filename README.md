@@ -9,4 +9,4 @@ Dashboard layout and actions:
 Using the bar chart:
 ![BarChart](screenshots/BarChart.PNG)
 
-![Slider](usingtheslider.PNG)
+![Slider](screenshots/usingtheslider.PNG)
