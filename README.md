@@ -1,7 +1,12 @@
 # Global-C02-Emissions
 
-Uses the D3 JavaScript library to collate relationships between countries/emissions/years and display a global (1980-2016) interactive dashboard.
+Uses the D3 library to demonstrate a Co2 output across a graph, map and pie chart.
 
-# Recommended viewing:
+# Demo:
+Dashboard layout and actions:
+![LandingPage](screenshots/LandingPage.PNG)
 
-GitHub hosting for this repo has depreciated. Clone repository to local device and run `npm start` to view the live dashboard. 
+Using the bar chart:
+![BarChart](screenshots/BarChart.PNG)
+
+![Slider](usingtheslider.PNG)
