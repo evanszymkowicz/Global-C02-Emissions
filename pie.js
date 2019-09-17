@@ -65,3 +65,14 @@ function drawPie(data, currentYear) {
   pie.select(".pie-title")
       .text("Total emissions by continent and region, " + currentYear);
 }
+
+
+
+
+
+
+
+
+
+
+

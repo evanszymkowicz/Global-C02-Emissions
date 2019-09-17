@@ -88,7 +88,7 @@ function drawBar(data, dataType, country) {
             .duration(1000)
             .ease(d3.easeBounceOut);
 
-  var update = bar
+  var update = bar 
                  .selectAll(".bar")
                  .data(countryData);
 
@@ -113,3 +113,26 @@ function drawBar(data, dataType, country) {
       .delay((d, i) => i * 100)
         .attr("y", d => yScale(d[dataType]))
         .attr("height", d => height - padding.bottom - yScale(d[dataType]));
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
