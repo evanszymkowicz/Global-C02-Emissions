@@ -1,3 +1,6 @@
+// 4. make bar chart
+// 5. tooltip!
+
 d3.queue()
   .defer(d3.json, "//unpkg.com/world-atlas@1.1.4/world/50m.json")
   .defer(d3.csv, "./data/all_data.csv", function(row) {
@@ -79,7 +82,7 @@ d3.queue()
         var dataValue = data[dataType] ?
           data[dataType].toLocaleString() + " " + units :
           "Data Not Available";
-        tooltip
+        tooltip 
             .html(`
               <p>Country: ${data.country}</p>
               <p>${formatDataType(dataType)}: ${dataValue}</p>
@@ -99,3 +102,21 @@ function getPercentage(d) {
   var fraction = 100 * angle / (Math.PI * 2);
   return fraction.toFixed(2) + "%";
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

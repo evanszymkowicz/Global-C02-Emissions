@@ -38,7 +38,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
-
+ 
 .chart-container {
   display: inline-block;
   width: 45%;
